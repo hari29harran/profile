@@ -1,15 +1,16 @@
 body
 {
-	background-image: url('../Images/back.jpg');
+	  background-image: url('../Images/back2.jpg');
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 2,0.3);
   	background-attachment: fixed;
   	background-size: cover;
-  	background-size: 100% 100%;
   	text-align: center;
   	color: white;
   	font-weight: bold;
   	padding: 10px;
   	font-style: italic;
   	font-family: 'Raleway', sans-serif;
+    height: 100%;
 }
 .container-fluid
 {
@@ -60,12 +61,12 @@ body
 
 }
 .introductions li{
-    padding: 25px;
-    border-bottom: 1px dashed #ccc;
+    padding: 20px;
+    border-bottom: 1px dashed black;
     width: 100%;
 }
 .introductions li.bc{
-    background: #fbf7f5;
+    background: white;
 }
 .introductions li:after {
     content: '';
@@ -88,6 +89,7 @@ body
 iframe
 {
 	width:300px;
+  height:200px;
 	border:none;
 }
 .introduction{
@@ -110,4 +112,5 @@ iframe
 	width: 100%;
 	height:200px;
 }
+
 }
