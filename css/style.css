@@ -1,0 +1,113 @@
+body
+{
+	background-image: url('../Images/back.jpg');
+  	background-attachment: fixed;
+  	background-size: cover;
+  	background-size: 100% 100%;
+  	text-align: center;
+  	color: white;
+  	font-weight: bold;
+  	padding: 10px;
+  	font-style: italic;
+  	font-family: 'Raleway', sans-serif;
+}
+.container-fluid
+{
+	
+	padding: 10px;
+
+}
+
+.btn
+{
+	background-color: white;
+	width:100%;
+	font-size: 18px;
+}
+.btn:hover
+{
+	color: red;
+}
+.menu
+{
+	width: 50%;
+}
+.p
+{
+	outline: 1px solid white;
+	padding: 5px;
+}
+
+.c a
+{
+	padding: 5px;
+	width:5px;
+}
+.h p
+{
+	border:1px solid white;
+	padding: 10px;
+}
+.introductions{
+    border: 1px solid #ccc;
+    width:100%;
+    height:100%;
+    
+}
+.introductions ul{
+    padding: 0;
+    list-style: none;
+
+}
+.introductions li{
+    padding: 25px;
+    border-bottom: 1px dashed #ccc;
+    width: 100%;
+}
+.introductions li.bc{
+    background: #fbf7f5;
+}
+.introductions li:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/*.introductions a{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #06f;
+    width: 100%;
+    text-decoration:none;
+}*/
+.introductions img
+{
+	width: 100%;
+	height:350px;
+}
+iframe
+{
+	width:300px;
+	border:none;
+}
+.introduction{
+    
+    border-radius: 5px;
+    width: 100%;
+    height:100%;
+    
+}
+.achievements{
+    
+    border-radius: 5px;
+    width: 100%;
+    height:100%;
+    
+}
+@media only screen and (max-width: 600px) {
+.introductions img
+{
+	width: 100%;
+	height:200px;
+}
+}
